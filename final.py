@@ -20,7 +20,7 @@ while meny != 2:
         parser = argparse.ArgumentParser()
         parser.add_argument("--file", "-f", type=str, help="increase output file verbosity")
         args = parser.parse_args()
-        print(file)
+        print(.file)
         with open(.file, newline='') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
